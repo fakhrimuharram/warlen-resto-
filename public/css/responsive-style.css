@@ -1,0 +1,145 @@
+/* Small Phone Style */
+@media (min-width: 320px) and (max-width: 767px){
+  .bg-light{
+    padding: 20px 15px;
+  }
+  .block-width{
+    display: inline-block;
+  }
+  .block-width .col-half.text {
+    margin-left: 0px;
+    width: 100%;
+    padding: 0px 15px;
+  }
+  .block-width .col-half.images{
+    width: 100%;
+  }
+  .block-width .col-half.text h1 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 0px;
+  }
+  p.sub {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .action {
+    margin-top: 50px;
+  }
+  .action a{
+    display: block;
+    margin-right: 0px;
+  }
+  .action a.img-link{
+    text-align: center;
+  }
+  a.img-link img {
+    position: relative;
+    left: 0px;
+    top: 18px;
+  }
+  .col-12{
+    margin-bottom: 20px;
+  }
+  .box-number{
+    padding-left: 80px;
+  }
+  ul.partner li {
+    width: 35%;
+    margin-bottom: 13px;
+  }
+  ul.partner li.bottom {
+    width: 40%;
+  }
+  .divider{
+    display: none;
+  }
+  .box-image.growth::after{
+    content: none;
+  }
+  img.cloud {
+    width: auto;
+  }
+  #Keunggulan {
+    padding-bottom: 60px;
+  }
+  .bg-clips{
+    padding-top: 0px;
+  }
+  .bg-clips .block-width{
+    width: 100%;
+  }
+  .bg-clips .block-width .col-half{
+    width: 100%;
+    display: block;
+  }
+  .bg-clips{
+    background-size: inherit;
+  }
+  .slider__item {
+    margin-right: 0px;
+    padding: 0px 15px;
+  }
+  .slider__item h1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 42px;
+  }
+  .slider__item p{
+    line-height: 24px;
+  }
+  .bg-clips .action{
+    padding: 0px 20px;
+  }
+  #HargaPaket {
+    padding-top: 0px;
+  }
+  #HargaPaket .images img {
+    padding-right: 0px;
+  }
+  #HargaPaket .col-half{
+    width: 100%;
+  }
+  .box-package h1{
+    text-align: center; 
+  }
+  .package-list{
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    min-height: auto;
+  }
+  .footer .col-half{
+    width: 100%;
+  }
+  .footer ul.copyright li{
+    display: block;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .footer ul.menu {
+    text-align: center;
+  }
+  .footer ul.menu li {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  nav.navbar-light ul.navbar-nav li:last-child{
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+}
+/* End tab Phone Style */
